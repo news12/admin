@@ -15,6 +15,9 @@ class EternalProvider extends ServiceProvider
     {
         $this->app->bind(\App\Repositories\PremiumNeilItemRepository::class,
         \App\Repositories\PremiumNeilItemRepositoryEloquent::class);
+
+        $this->app->bind(\App\Repositories\NewsRepository::class,
+        \App\Repositories\NewsRepositoryEloquent::class);
     }
 
     /**

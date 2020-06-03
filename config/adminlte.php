@@ -224,6 +224,11 @@ return [
             'icon'        => 'fas fa-home',
         ],
         [
+            'text'        => 'Noticias',
+            'url'         => 'panel/news',
+            'icon'        => 'far fa-newspaper',
+        ],
+        [
             'text'        => 'Premium Neill',
             'url'         => 'panel/neill',
             'icon'        => 'fas fa-donate',

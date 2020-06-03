@@ -16,11 +16,16 @@ Route::prefix('panel')->group(function (){
 
     Route::get('register', 'Admin\Auth\RegisterController@index')->name('register');
     Route::post('register', 'Admin\Auth\RegisterController@register');
-
+    //Rotas Premium Neill
     Route::get('neill', 'Admin\NeillController@index')->name('neill');
     Route::post('cNeill', 'Admin\NeillController@create')->name('cNeill');
     Route::post('eNeill', 'Admin\NeillController@edit')->name('eNeill');
     Route::post('dNeill', 'Admin\NeillController@destroy')->name('dNeill');
+    //Rotas Noticias
+    Route::get('news', 'Admin\NewsController@index')->name('news');
+    Route::post('cNews', 'Admin\NewsController@create')->name('cNews');
+    Route::post('eNews', 'Admin\NewsController@edit')->name('eNews');
+    Route::post('dNews', 'Admin\NewsController@destroy')->name('dNews');
 
     Route::post('logout', 'Admin\Auth\LoginController@logout')->name('logout');
 

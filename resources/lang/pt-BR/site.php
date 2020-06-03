@@ -140,5 +140,6 @@ return [
     'id_item'=> 'Item',
     'ef'=> "Effect",
     'efv'=> "Value",
+    'autor' => "Autor"
 
 ];
