@@ -1,0 +1,78 @@
+#tb1
+{
+	width:750px;
+	padding:3px;
+}
+
+.pg-ctrl
+{
+	font:bold 18px verdana;
+	color:#FFF;
+	text-decoration: none; 
+	cursor: pointer;    
+	padding:4px;
+	margin:0px;
+	border: 0px;
+}
+.pg-normal 
+{
+	font:18px verdana;
+	color:#FFF;
+	text-decoration:inherit;    
+	cursor: pointer;
+	padding:0px 0px;
+}
+
+.pg-selected 
+{
+	font:18px verdana;
+	color:#FFCC00;
+	text-decoration:inherit;    
+	cursor: pointer;
+	padding:0px 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

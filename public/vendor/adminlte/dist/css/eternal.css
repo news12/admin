@@ -1,0 +1,106 @@
+.edit-adm-noticia,
+.excluir-adm-item,
+.edit-adm-item {
+    margin-bottom: 10px;
+    color: white;
+    width: 70px;
+    height: 40px;
+
+}
+.edit-adm-noticia p,
+.excluir-adm-item p,
+.edit-adm-item p {
+    margin-top: 1px;
+    text-align: center;
+    top: 10px;
+
+}
+.icon-item{
+    max-height: 20px;
+}
+div.dataTables_wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-noticia-sao {
+    max-width: 300px;
+}
+
+.well-status {
+    border: #d2d6de 1px solid;
+    padding-left: 5px;
+
+}
+
+.modal-adm-itens {
+    max-height: 500px;
+    overflow-x: auto;
+}
+
+.fileUpload {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-left: 5px;
+}
+
+.uploadFile {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-top: 5px;
+
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.table-panel-noticias,
+.table-panel-avatar {
+    float: left;
+    position: relative;
+}
+.btn-new-item{
+    width: 220px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.item-id-label{
+    position: relative;
+    margin-left: 20px;
+
+}
+
+.item-id{
+    width: 50px;
+    position: relative;
+
+
+}
+.item-name{
+    width: 350px;
+    position: relative;
+
+}
+
+.table-desc{
+    width: 100%;
+}
+
+.item_cont,
+.item__id,
+.item_price{
+    width: 130px;
+}
+

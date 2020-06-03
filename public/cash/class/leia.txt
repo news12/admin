@@ -1,0 +1,4 @@
+msql do cash add
+para adicionar o cash basta adicionar no esqlylog clicando adicionando id
+e valor do cash
+depois clicar em salvar
