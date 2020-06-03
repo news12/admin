@@ -24,4 +24,9 @@ class HomeController extends Controller
     {
         return view('admin.home');
     }
+
+    public function update()
+    {
+        return view('admin.update');
+    }
 }
