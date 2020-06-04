@@ -88,7 +88,7 @@
                     <a href="http://www.eternalwyd.com.br/">Site Oficial</a>
                     <a href="http://www.eternalwyd.com.br/suporte/">Suporte</a>
                     <a href="">Face</a>
-                    <a href="/panel/">Painel</a>
+                    <a href="panel/">Painel</a>
                 </div>
             </div>
         </div>
