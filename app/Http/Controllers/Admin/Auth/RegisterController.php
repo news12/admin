@@ -49,7 +49,7 @@ class RegisterController extends Controller
      */
     public function index()
     {
-        return view('admin.register');
+        return view('admin.login'); //setado login para não criar mais usuario
     }
 
 
