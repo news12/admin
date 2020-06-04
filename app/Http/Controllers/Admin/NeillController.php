@@ -42,6 +42,10 @@ class NeillController extends Controller
         }
         //dd($request);
         try {
+            $qtd = $request->efv1;
+
+            if ($qtd < 1)
+                $qtd = 1;
 
             $this->repository->create(
                 [
@@ -50,7 +54,7 @@ class NeillController extends Controller
                     'item_price' => $request->item_price,
                     'item_cont' => $request->item_cont,
                     'item_cat_id' => 0,
-                    'item_type' => 0,
+                    'item_type' =>$qtd,
                     'item_date' => date("m.d.y"),
                     'item__img' => $request->item__id,
                     'item__id' => $request->item__id,
@@ -91,7 +95,10 @@ class NeillController extends Controller
         }
         //dd($request);
         try {
+            $qtd = $request->efv1;
 
+            if ($qtd < 1)
+                $qtd = 1;
             $this->repository->update_where(
                 [
                     'item_name' => $request->item_name,
@@ -99,6 +106,7 @@ class NeillController extends Controller
                     'item_price' => $request->item_price,
                     'item_cont' => $request->item_cont,
                     'item__img' => $request->item__id,
+                    'item_type' =>$qtd,
                     'item__id' => $request->item__id,
                     'item__ef1' => $request->ef1,
                     'item__ef2' => $request->ef2,
